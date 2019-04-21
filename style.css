@@ -1,0 +1,33 @@
+
+body{
+        color:red;
+}
+
+span{
+    font-weight: bold;
+    color:black;
+}
+
+img{
+    width : 250px;
+    height : 250px;
+}
+
+#samsung{
+    color : blue;
+    text-decoration: none;
+}
+
+#sadang{
+    color : violet;
+    text-decoration: none;
+}
+/* 꺽쇠는 내 자식한테만 적용 */
+ul > .mutsa{
+    color : pink;
+}
+
+/* 꺽쇠가 없으면 내 하위  */
+ul .mutsa{
+    color : pink;
+}
